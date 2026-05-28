@@ -43,6 +43,7 @@
     } 
     .nav{
         flex-direction: column;
+        padding-top: 15px;
 
     }
     .desc{
