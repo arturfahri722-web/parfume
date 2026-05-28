@@ -45,6 +45,15 @@
         flex-direction: column;
 
     }
+    .desc{
+        max-width: 420px;
+    }
+    .subtitle{
+        font-size: 29px;
+    }
+    .desc-coll{
+        max-width: 410px;
+    }
 
 }
 
