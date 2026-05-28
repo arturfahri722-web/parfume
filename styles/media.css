@@ -2,10 +2,50 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+        .collection__btn{
+        margin-top: 30px;
+    }
+    .desc-coll {
+        font-weight: 700;
+        font-size: 23px;   
+}
+.content__btn{
+    margin-bottom: 50px;
+}
+.info{
+    margin: 0 auto;
+}
+.desc{
+    font-weight: 700;
+}
+}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .list{
+        gap: 50px;
+    }
+    .content__title{
+        font-size: 80px;
+    }
+}
 
-@media (max-width: 576px) {}
+
+@media (max-width: 576px) {
+    .info{
+        width: 100%;
+    }
+    .content__title{
+        font-size: 50px;
+    }
+     .list{ 
+        gap: 50px;
+    } 
+    .nav{
+        flex-direction: column;
+
+    }
+
+}
 
 @media (max-width: 390px) {}
